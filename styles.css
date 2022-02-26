@@ -87,7 +87,7 @@ nav ul li {
   box-shadow: 0 4px 8px 0 var(--secondary-color);
 }
 .parallax1 {
-  background-image:url("intro.jpg");
+  background-image:url("connect.jpg");
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
@@ -104,7 +104,15 @@ nav ul li {
 }
 
 .parallax3 {
-  background-image:url("connect.jpg");
+  background-image:url("j.jpg");
+  min-height: 250px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4{
+  background-image:url("p.jpg");
   min-height: 250px; 
   background-attachment: fixed;
   background-position: center;
@@ -141,6 +149,11 @@ text_block {
   margin-bottom: var(--bottom-margin);
   text-align: center;
 }
+.about h3
+ {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
 
 .about p {
   line-height: var(--line-height);
@@ -168,6 +181,10 @@ text_block {
   line-height: 2.7em;
   font-weight: var(--bold-font);
   color: var(--bg-color);
+}
+.input-field::placeholder {
+  padding: 0.5rem;
+  color: var(--primary-color);
 }
 
 .submit-btn {
